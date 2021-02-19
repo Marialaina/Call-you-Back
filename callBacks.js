@@ -99,13 +99,14 @@ const toUpperCase = (word) => {
 
 const repMaster = (arg, word) => {
     console.log("Never give your heart to a blockhead " + word(arg))
+    console.log("I finished this practice", word(arg))
 }
 
 
 
-repMaster("marialaina", wordReverse)
-repMaster("yani", wordReverse)
+
 repMaster("messi", wordReverse)
+repMaster("I'm top 10!!!", toUpperCase)
 
 
 
